@@ -1,0 +1,227 @@
+PS C:\Users\pieter> python .\debug_md_lsl_stream.py
+Looking for LSL stream: SynAmpsRT
+2025-11-26 21:13:58.868 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{214B3F78-905E-4740-BBAB-FB68066163E5}' (status: 2, multicast: 1
+2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{37217669-42DA-4657-A55B-0D995D328250}' (status: 1, multicast: 1
+2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 35
+2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{3A788AA2-B41C-4293-AAA7-9621655D595A}' (status: 2, multicast: 1
+2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{850BB2FB-D287-41DC-89CB-5CFC366B084D}' (status: 2, multicast: 1
+2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{9C94F2AF-D8DF-4331-B0CC-B5005B7C5653}' (status: 1, multicast: 1
+2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 19
+2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{F6FB212E-704E-11EF-AD1A-806E6F6E6963}' (status: 1, multicast: 1
+2025-11-26 21:13:58.869 (   0.008s) [        E2E8C009]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 1
+2025-11-26 21:13:58.870 (   0.008s) [        E2E8C009]         api_config.cpp:270   INFO| Loaded default config
+Found 1 LSL stream(s):
+
+[0] SynAmpsRT
+    Type: EEG
+    Channels: 32
+    Sample Rate: 1000.0 Hz
+    Source ID: synamps1234
+    Hostname: strixw11
+    Protocol Version: 110
+    Created at: 514044.9769881
+    UID: 0c4567f6-741f-45d4-bb95-2b960a78d589
+    Session ID: default
+
+✅ Found target stream: SynAmpsRT
+2025-11-26 21:13:59.890 (   1.029s) [        E2E8C009]             common.cpp:65    INFO| git:6ca188c266c21f7228dc67077303fa6abaf2e8be/branch:refs/tags/v1.16.2/build:Release/compiler:MSVC-19.0.24245.0/link:SHARED
+✓ StreamInlet created successfully
+
+📊 COMPLETE STREAM METADATA:
+  Name: SynAmpsRT
+  Type: EEG
+  Channel Count: 32
+  Nominal Sample Rate: 1000.0 Hz
+  Source ID: synamps1234
+  Hostname: strixw11
+  Protocol Version: 110
+  Created at: 514044.9769881
+  UID: 0c4567f6-741f-45d4-bb95-2b960a78d589
+  Session ID: default
+
+🎛️  CHANNEL INFORMATION:
+  Channel 0:
+    Label: Fp1
+    Unit: microvolts
+    Type: EEG
+  Channel 1:
+    Label: Fp2
+    Unit: microvolts
+    Type: EEG
+  Channel 2:
+    Label: F3
+    Unit: microvolts
+    Type: EEG
+  Channel 3:
+    Label: F4
+    Unit: microvolts
+    Type: EEG
+  Channel 4:
+    Label: C3
+    Unit: microvolts
+    Type: EEG
+  Channel 5:
+    Label: C4
+    Unit: microvolts
+    Type: EEG
+  Channel 6:
+    Label: P3
+    Unit: microvolts
+    Type: EEG
+  Channel 7:
+    Label: P4
+    Unit: microvolts
+    Type: EEG
+  Channel 8:
+    Label: O1
+    Unit: microvolts
+    Type: EEG
+  Channel 9:
+    Label: O2
+    Unit: microvolts
+    Type: EEG
+  Channel 10:
+    Label: F7
+    Unit: microvolts
+    Type: EEG
+  Channel 11:
+    Label: F8
+    Unit: microvolts
+    Type: EEG
+  Channel 12:
+    Label: T7
+    Unit: microvolts
+    Type: EEG
+  Channel 13:
+    Label: T8
+    Unit: microvolts
+    Type: EEG
+  Channel 14:
+    Label: P7
+    Unit: microvolts
+    Type: EEG
+  Channel 15:
+    Label: P8
+    Unit: microvolts
+    Type: EEG
+  Channel 16:
+    Label: Fz
+    Unit: microvolts
+    Type: EEG
+  Channel 17:
+    Label: Cz
+    Unit: microvolts
+    Type: EEG
+  Channel 18:
+    Label: Pz
+    Unit: microvolts
+    Type: EEG
+  Channel 19:
+    Label: Oz
+    Unit: microvolts
+    Type: EEG
+  Channel 20:
+    Label: FC1
+    Unit: microvolts
+    Type: EEG
+  Channel 21:
+    Label: FC2
+    Unit: microvolts
+    Type: EEG
+  Channel 22:
+    Label: CP1
+    Unit: microvolts
+    Type: EEG
+  Channel 23:
+    Label: CP2
+    Unit: microvolts
+    Type: EEG
+  Channel 24:
+    Label: FC5
+    Unit: microvolts
+    Type: EEG
+  Channel 25:
+    Label: FC6
+    Unit: microvolts
+    Type: EEG
+  Channel 26:
+    Label: CP5
+    Unit: microvolts
+    Type: EEG
+  Channel 27:
+    Label: CP6
+    Unit: microvolts
+    Type: EEG
+  Channel 28:
+    Label: TP9
+    Unit: microvolts
+    Type: EEG
+  Channel 29:
+    Label: TP10
+    Unit: microvolts
+    Type: EEG
+  Channel 30:
+    Label: POz
+    Unit: microvolts
+    Type: EEG
+  Channel 31:
+    Label: Iz
+    Unit: microvolts
+    Type: EEG
+
+📋 STREAM DESCRIPTION:
+  Manufacturer: Compumedics Neuroscan
+  Model: SynAmps RT
+
+🔤 CHANNEL NAMES:
+  Channel 0: Fp1
+  Channel 1: Fp2
+  Channel 2: F3
+  Channel 3: F4
+  Channel 4: C3
+  Channel 5: C4
+  Channel 6: P3
+  Channel 7: P4
+  Channel 8: O1
+  Channel 9: O2
+  Channel 10: F7
+  Channel 11: F8
+  Channel 12: T7
+  Channel 13: T8
+  Channel 14: P7
+  Channel 15: P8
+  Channel 16: Fz
+  Channel 17: Cz
+  Channel 18: Pz
+  Channel 19: Oz
+  Channel 20: FC1
+  Channel 21: FC2
+  Channel 22: CP1
+  Channel 23: CP2
+  Channel 24: FC5
+  Channel 25: FC6
+  Channel 26: CP5
+  Channel 27: CP6
+  Channel 28: TP9
+  Channel 29: TP10
+  Channel 30: POz
+  Channel 31: Iz
+
+📥 TESTING DATA FLOW:
+✓ Received sample with 32 channels
+  First few values: [11.193634986877441, -5.381709098815918, 9.440168380737305, 3.607180118560791, 4.846921920776367]
+  Timestamp: 514636.8524072
+
+🔄 TESTING CONTINUOUS DATA:
+✓ Received 10 samples in chunk
+  Sample shape: 10x32
+  Timestamps range: 514636.853 to 514636.865
+
+🎉 Stream connection successful!
+Channel names: ['Fp1', 'Fp2', 'F3', 'F4', 'C3', 'C4', 'P3', 'P4', 'O1', 'O2', 'F7', 'F8', 'T7', 'T8', 'P7', 'P8', 'Fz', 'Cz', 'Pz', 'Oz', 'FC1', 'FC2', 'CP1', 'CP2', 'FC5', 'FC6', 'CP5', 'CP6', 'TP9', 'TP10', 'POz', 'Iz']
+
+📈 COLLECTING STATISTICS FOR 5 SECONDS:
+  Total samples: 4440
+  Average samples/sec: 888.0
+  Chunks received: 5
+  Average chunk size: 888.0
