@@ -1,15 +1,16 @@
-PS C:\Users\pieter> python .\debug_md_lsl_stream.py
+D:\F2H_code\GH\lsl-tools-1>python debug_md_lsl_stream.py
 Looking for LSL stream: SynAmpsRT
-2025-11-26 21:13:58.868 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{214B3F78-905E-4740-BBAB-FB68066163E5}' (status: 2, multicast: 1
-2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{37217669-42DA-4657-A55B-0D995D328250}' (status: 1, multicast: 1
-2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 35
-2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{3A788AA2-B41C-4293-AAA7-9621655D595A}' (status: 2, multicast: 1
-2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{850BB2FB-D287-41DC-89CB-5CFC366B084D}' (status: 2, multicast: 1
-2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{9C94F2AF-D8DF-4331-B0CC-B5005B7C5653}' (status: 1, multicast: 1
-2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 19
-2025-11-26 21:13:58.869 (   0.007s) [        E2E8C009]      netinterfaces.cpp:36    INFO| netif '{F6FB212E-704E-11EF-AD1A-806E6F6E6963}' (status: 1, multicast: 1
-2025-11-26 21:13:58.869 (   0.008s) [        E2E8C009]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 1
-2025-11-26 21:13:58.870 (   0.008s) [        E2E8C009]         api_config.cpp:270   INFO| Loaded default config
+2025-11-27 08:21:40.311 (   0.190s) [        1F5B0576]      netinterfaces.cpp:36    INFO| netif '{214B3F78-905E-4740-BBAB-FB68066163E5}' (status: 2, multicast: 1
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:36    INFO| netif '{37217669-42DA-4657-A55B-0D995D328250}' (status: 1, multicast: 1
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 38
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:36    INFO| netif '{3A788AA2-B41C-4293-AAA7-9621655D595A}' (status: 2, multicast: 1
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:36    INFO| netif '{850BB2FB-D287-41DC-89CB-5CFC366B084D}' (status: 2, multicast: 1
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:36    INFO| netif '{9C94F2AF-D8DF-4331-B0CC-B5005B7C5653}' (status: 1, multicast: 1
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 20
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:36    INFO| netif '{ECFDBA45-F1A5-43CA-A264-6332FDD87E6D}' (status: 2, multicast: 1
+2025-11-27 08:21:40.312 (   0.191s) [        1F5B0576]      netinterfaces.cpp:36    INFO| netif '{F6FB212E-704E-11EF-AD1A-806E6F6E6963}' (status: 1, multicast: 1
+2025-11-27 08:21:40.313 (   0.192s) [        1F5B0576]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 1
+2025-11-27 08:21:40.313 (   0.192s) [        1F5B0576]         api_config.cpp:270   INFO| Loaded default config
 Found 1 LSL stream(s):
 
 [0] SynAmpsRT
@@ -19,12 +20,12 @@ Found 1 LSL stream(s):
     Source ID: synamps1234
     Hostname: strixw11
     Protocol Version: 110
-    Created at: 514044.9769881
-    UID: 0c4567f6-741f-45d4-bb95-2b960a78d589
+    Created at: 34206.1101473
+    UID: 294b021a-5ff4-414d-9d65-52467deff313
     Session ID: default
 
 ✅ Found target stream: SynAmpsRT
-2025-11-26 21:13:59.890 (   1.029s) [        E2E8C009]             common.cpp:65    INFO| git:6ca188c266c21f7228dc67077303fa6abaf2e8be/branch:refs/tags/v1.16.2/build:Release/compiler:MSVC-19.0.24245.0/link:SHARED
+2025-11-27 08:21:41.330 (   1.209s) [        1F5B0576]             common.cpp:65    INFO| git:6ca188c266c21f7228dc67077303fa6abaf2e8be/branch:refs/tags/v1.16.2/build:Release/compiler:MSVC-19.0.24245.0/link:SHARED
 ✓ StreamInlet created successfully
 
 📊 COMPLETE STREAM METADATA:
@@ -35,8 +36,8 @@ Found 1 LSL stream(s):
   Source ID: synamps1234
   Hostname: strixw11
   Protocol Version: 110
-  Created at: 514044.9769881
-  UID: 0c4567f6-741f-45d4-bb95-2b960a78d589
+  Created at: 34206.1101473
+  UID: 294b021a-5ff4-414d-9d65-52467deff313
   Session ID: default
 
 🎛️  CHANNEL INFORMATION:
@@ -209,19 +210,71 @@ Found 1 LSL stream(s):
 
 📥 TESTING DATA FLOW:
 ✓ Received sample with 32 channels
-  First few values: [11.193634986877441, -5.381709098815918, 9.440168380737305, 3.607180118560791, 4.846921920776367]
-  Timestamp: 514636.8524072
+  First few values: [-1.3143707513809204, -10.764930725097656, 4.729851245880127, -3.1870229244232178, -7.964427947998047]
+  Timestamp: 34576.938897500004
 
 🔄 TESTING CONTINUOUS DATA:
 ✓ Received 10 samples in chunk
   Sample shape: 10x32
-  Timestamps range: 514636.853 to 514636.865
+  Timestamps range: 34576.940 to 34576.948
 
 🎉 Stream connection successful!
 Channel names: ['Fp1', 'Fp2', 'F3', 'F4', 'C3', 'C4', 'P3', 'P4', 'O1', 'O2', 'F7', 'F8', 'T7', 'T8', 'P7', 'P8', 'Fz', 'Cz', 'Pz', 'Oz', 'FC1', 'FC2', 'CP1', 'CP2', 'FC5', 'FC6', 'CP5', 'CP6', 'TP9', 'TP10', 'POz', 'Iz']
 
-📈 COLLECTING STATISTICS FOR 5 SECONDS:
-  Total samples: 4440
-  Average samples/sec: 888.0
-  Chunks received: 5
-  Average chunk size: 888.0
+📈 COLLECTING STATISTICS FOR 10 SECONDS:
+  Collecting data... Done!
+  Actual collection time: 10.06 seconds
+  Total samples: 10050
+  Total chunks: 99
+  Average samples/sec: 999.0
+  Average chunk size: 101.5
+  Chunks/sec: 9.8
+  Chunk size range: 90 - 110
+  Average chunk interval: 101.6 ms
+  Nominal sample rate: 1000.0 Hz
+  Data efficiency: 99.9%
+
+🎯 SAMPLE RATE DRIFT ANALYSIS:
+  Actual mean rate: 1000.105 Hz
+  Rate error: +0.010%
+  Total drift: -0.001053 seconds
+  Drift rate: -104.7 ppm
+  Drift per minute: -0.006 seconds
+  Instantaneous rate: 892.87 ± 7451.51 Hz
+  Rate range: -555564.8 - 64516.0 Hz
+  Interval jitter: 0.245 ms RMS
+  Interval CV: 24.45%
+  Timing quality: Excellent
+
+==================================================
+
+⚡ PERFORMANCE TEST FOR 3 SECONDS:
+  Testing with 10ms intervals... 2990 samples, 995.8 samples/sec
+  Testing with 50ms intervals... 3030 samples, 1000.9 samples/sec
+  Testing with 100ms intervals... 3050 samples, 1000.2 samples/sec
+  Testing with 500ms intervals... 3020 samples, 996.8 samples/sec
+
+📊 PERFORMANCE SUMMARY:
+    10ms timeout:  995.8 samples/sec,  90.3 chunks/sec, chunk size:  11.0, drift: +0.04%
+    50ms timeout: 1000.9 samples/sec,  19.5 chunks/sec, chunk size:  51.4, drift: +0.01%
+   100ms timeout: 1000.2 samples/sec,   9.8 chunks/sec, chunk size: 101.7, drift: +0.04%
+   500ms timeout:  996.8 samples/sec,   2.0 chunks/sec, chunk size: 503.3, drift: +0.03%
+
+==================================================
+
+🎯 COMPREHENSIVE SAMPLE RATE DRIFT MEASUREMENT (10s):
+  Nominal rate: 1000.0 Hz
+  Measuring for 10 seconds...
+
+📊 DRIFT MEASUREMENT RESULTS:
+  Samples collected: 10040
+  Measurement duration: 10.06 seconds
+  Nominal sample rate: 1000.0 Hz
+  Actual mean rate: 1000.120682 Hz
+  Rate error: +0.012068%
+  Total time drift: -0.001212 seconds
+  Drift rate: -120.67 ppm
+  Projected drift/hour: -0.434 seconds
+  Instantaneous rate stability: 2443.651 Hz std
+  Sample interval jitter: 0.138 ms RMS
+  Stability assessment: Excellent (laboratory grade)

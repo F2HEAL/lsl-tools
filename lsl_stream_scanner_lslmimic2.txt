@@ -1,0 +1,107 @@
+D:\F2H_code\GH\lsl-tools-1>python lsl_stream_scanner.py
+🔍 Scanning for LSL streams...
+================================================================================
+2025-11-27 07:37:35.566 (   0.008s) [        95F8C758]      netinterfaces.cpp:36    INFO| netif '{214B3F78-905E-4740-BBAB-FB68066163E5}' (status: 2, multicast: 1
+2025-11-27 07:37:35.567 (   0.008s) [        95F8C758]      netinterfaces.cpp:36    INFO| netif '{37217669-42DA-4657-A55B-0D995D328250}' (status: 1, multicast: 1
+2025-11-27 07:37:35.567 (   0.008s) [        95F8C758]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 38
+2025-11-27 07:37:35.567 (   0.009s) [        95F8C758]      netinterfaces.cpp:36    INFO| netif '{3A788AA2-B41C-4293-AAA7-9621655D595A}' (status: 2, multicast: 1
+2025-11-27 07:37:35.567 (   0.009s) [        95F8C758]      netinterfaces.cpp:36    INFO| netif '{850BB2FB-D287-41DC-89CB-5CFC366B084D}' (status: 2, multicast: 1
+2025-11-27 07:37:35.567 (   0.009s) [        95F8C758]      netinterfaces.cpp:36    INFO| netif '{9C94F2AF-D8DF-4331-B0CC-B5005B7C5653}' (status: 1, multicast: 1
+2025-11-27 07:37:35.567 (   0.009s) [        95F8C758]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 20
+2025-11-27 07:37:35.567 (   0.009s) [        95F8C758]      netinterfaces.cpp:36    INFO| netif '{ECFDBA45-F1A5-43CA-A264-6332FDD87E6D}' (status: 2, multicast: 1
+2025-11-27 07:37:35.567 (   0.009s) [        95F8C758]      netinterfaces.cpp:36    INFO| netif '{F6FB212E-704E-11EF-AD1A-806E6F6E6963}' (status: 1, multicast: 1
+2025-11-27 07:37:35.568 (   0.009s) [        95F8C758]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 1
+2025-11-27 07:37:35.568 (   0.010s) [        95F8C758]         api_config.cpp:270   INFO| Loaded default config
+✅ Found 2 LSL stream(s)
+
+📊 STREAM #1
+----------------------------------------
+  Name: SynAmps_RT_EEG
+  Type: EEG
+  Channels: 32
+  Sample Rate: 1000.0 Hz
+  Source ID: synamps_rt_mock_01
+  Hostname: strixw11
+  Protocol Version: 110
+  Created: Thu Jan  1 09:51:44 1970
+  UID: 273f6f60-0737-425a-af22-3c2d8a4a823e
+  Session ID: default
+2025-11-27 07:37:36.585 (   1.027s) [        95F8C758]             common.cpp:65    INFO| git:6ca188c266c21f7228dc67077303fa6abaf2e8be/branch:refs/tags/v1.16.2/build:Release/compiler:MSVC-19.0.24245.0/link:SHARED
+  📋 Channel Details:
+     0: Fp1             [uV      ] (EEG)
+     1: Fp2             [uV      ] (EEG)
+     2: F7              [uV      ] (EEG)
+     3: F3              [uV      ] (EEG)
+     4: Fz              [uV      ] (EEG)
+     5: F4              [uV      ] (EEG)
+     6: F8              [uV      ] (EEG)
+     7: T3              [uV      ] (EEG)
+     8: C3              [uV      ] (EEG)
+     9: Cz              [uV      ] (EEG)
+    10: C4              [uV      ] (EEG)
+    11: T4              [uV      ] (EEG)
+    12: T5              [uV      ] (EEG)
+    13: P3              [uV      ] (EEG)
+    14: Pz              [uV      ] (EEG)
+    15: P4              [uV      ] (EEG)
+    16: T6              [uV      ] (EEG)
+    17: O1              [uV      ] (EEG)
+    18: Oz              [uV      ] (EEG)
+    19: O2              [uV      ] (EEG)
+    20: EX0             [uV      ] (EEG)
+    21: EX1             [uV      ] (EEG)
+    22: EX2             [uV      ] (EEG)
+    23: EX3             [uV      ] (EEG)
+    24: EX4             [uV      ] (EEG)
+    25: EX5             [uV      ] (EEG)
+    26: EX6             [uV      ] (EEG)
+    27: EX7             [uV      ] (EEG)
+    28: EX8             [uV      ] (EEG)
+    29: EX9             [uV      ] (EEG)
+    30: EX10            [uV      ] (EEG)
+    31: EX11            [uV      ] (EEG)
+  🔧 Additional Metadata:
+    No additional metadata available
+  ⚠️  Could not retrieve detailed metadata: 'StreamInlet' object has no attribute 'close'
+  🔄 Connection Test:
+    ✅ SUCCESS - Received 32 channel sample
+       First 5 values: [0.1758633404970169, -5.79334020614624, 5.652404308319092, -5.754201889038086, 4.47117280960083]
+       Timestamp: 31932.452912
+       Chunk test: 5 samples received
+    ❌ Connection failed: 'StreamInlet' object has no attribute 'close'
+
+📊 STREAM #2
+----------------------------------------
+  Name: SynAmps_RT_Markers
+  Type: Markers
+  Channels: 1
+  Sample Rate: 0.0 Hz
+  Source ID: synamps_rt_markers_01
+  Hostname: strixw11
+  Protocol Version: 110
+  Created: Thu Jan  1 09:51:44 1970
+  UID: 328adc1c-df22-446d-8903-d17c5128e045
+  Session ID: default
+  🔧 Additional Metadata:
+    No additional metadata available
+  ⚠️  Could not retrieve detailed metadata: 'StreamInlet' object has no attribute 'close'
+  🔄 Connection Test:
+    ⚠️  No data received (stream might be inactive)
+    ❌ Connection failed: 'StreamInlet' object has no attribute 'close'
+
+
+================================================================================
+📈 STREAM SUMMARY
+================================================================================
+#  Name                 Type            Channels Rate (Hz)  Status
+--------------------------------------------------------------------------------
+1  SynAmps_RT_EEG       EEG             32       1000.0     ✅ Active
+2  SynAmps_RT_Markers   Markers         1        Irregular  ⚠️  Limited
+
+🔍 Start continuous monitoring? (y/n): y
+
+🔄 Continuous Monitoring (every 5.0s for 60.0s)
+Press Ctrl+C to stop monitoring
+
+⏰ 07:37:51 - Stream changes detected!
+   ➕ New streams: SynAmps_RT_EEG, SynAmps_RT_Markers

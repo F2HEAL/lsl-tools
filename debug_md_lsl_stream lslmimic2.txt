@@ -1,0 +1,289 @@
+D:\F2H_code\GH\lsl-tools-1>python debug_md_lsl_stream.py
+Looking for LSL stream: SynAmps_RT_EEG
+2025-11-27 08:25:35.514 (   0.164s) [        6AB37C03]      netinterfaces.cpp:36    INFO| netif '{214B3F78-905E-4740-BBAB-FB68066163E5}' (status: 2, multicast: 1
+2025-11-27 08:25:35.514 (   0.164s) [        6AB37C03]      netinterfaces.cpp:36    INFO| netif '{37217669-42DA-4657-A55B-0D995D328250}' (status: 1, multicast: 1
+2025-11-27 08:25:35.514 (   0.164s) [        6AB37C03]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 38
+2025-11-27 08:25:35.514 (   0.164s) [        6AB37C03]      netinterfaces.cpp:36    INFO| netif '{3A788AA2-B41C-4293-AAA7-9621655D595A}' (status: 2, multicast: 1
+2025-11-27 08:25:35.514 (   0.164s) [        6AB37C03]      netinterfaces.cpp:36    INFO| netif '{850BB2FB-D287-41DC-89CB-5CFC366B084D}' (status: 2, multicast: 1
+2025-11-27 08:25:35.515 (   0.164s) [        6AB37C03]      netinterfaces.cpp:36    INFO| netif '{9C94F2AF-D8DF-4331-B0CC-B5005B7C5653}' (status: 1, multicast: 1
+2025-11-27 08:25:35.515 (   0.164s) [        6AB37C03]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 20
+2025-11-27 08:25:35.515 (   0.164s) [        6AB37C03]      netinterfaces.cpp:36    INFO| netif '{ECFDBA45-F1A5-43CA-A264-6332FDD87E6D}' (status: 2, multicast: 1
+2025-11-27 08:25:35.515 (   0.165s) [        6AB37C03]      netinterfaces.cpp:36    INFO| netif '{F6FB212E-704E-11EF-AD1A-806E6F6E6963}' (status: 1, multicast: 1
+2025-11-27 08:25:35.515 (   0.165s) [        6AB37C03]      netinterfaces.cpp:58    INFO|       IPv6 ifindex 1
+2025-11-27 08:25:35.515 (   0.165s) [        6AB37C03]         api_config.cpp:270   INFO| Loaded default config
+Found 2 LSL stream(s):
+
+[0] SynAmps_RT_EEG
+    Type: EEG
+    Channels: 32
+    Sample Rate: 1000.0 Hz
+    Source ID: synamps_rt_mock_01
+    Hostname: strixw11
+    Protocol Version: 110
+    Created at: 34757.5670258
+    UID: 5ee89fc9-a38d-4d93-add0-3ea27ab5d62e
+    Session ID: default
+
+[1] SynAmps_RT_Markers
+    Type: Markers
+    Channels: 1
+    Sample Rate: 0.0 Hz
+    Source ID: synamps_rt_markers_01
+    Hostname: strixw11
+    Protocol Version: 110
+    Created at: 34757.5823662
+    UID: e73493ad-2324-4237-8cb7-ff983d733cf2
+    Session ID: default
+
+✅ Found target stream: SynAmps_RT_EEG
+2025-11-27 08:25:36.531 (   1.181s) [        6AB37C03]             common.cpp:65    INFO| git:6ca188c266c21f7228dc67077303fa6abaf2e8be/branch:refs/tags/v1.16.2/build:Release/compiler:MSVC-19.0.24245.0/link:SHARED
+✓ StreamInlet created successfully
+
+📊 COMPLETE STREAM METADATA:
+  Name: SynAmps_RT_EEG
+  Type: EEG
+  Channel Count: 32
+  Nominal Sample Rate: 1000.0 Hz
+  Source ID: synamps_rt_mock_01
+  Hostname: strixw11
+  Protocol Version: 110
+  Created at: 34757.5670258
+  UID: 5ee89fc9-a38d-4d93-add0-3ea27ab5d62e
+  Session ID: default
+
+🎛️  CHANNEL INFORMATION:
+  Channel 0:
+    Label: Fp1
+    Unit: uV
+    Type: EEG
+  Channel 1:
+    Label: Fp2
+    Unit: uV
+    Type: EEG
+  Channel 2:
+    Label: F7
+    Unit: uV
+    Type: EEG
+  Channel 3:
+    Label: F3
+    Unit: uV
+    Type: EEG
+  Channel 4:
+    Label: Fz
+    Unit: uV
+    Type: EEG
+  Channel 5:
+    Label: F4
+    Unit: uV
+    Type: EEG
+  Channel 6:
+    Label: F8
+    Unit: uV
+    Type: EEG
+  Channel 7:
+    Label: T3
+    Unit: uV
+    Type: EEG
+  Channel 8:
+    Label: C3
+    Unit: uV
+    Type: EEG
+  Channel 9:
+    Label: Cz
+    Unit: uV
+    Type: EEG
+  Channel 10:
+    Label: C4
+    Unit: uV
+    Type: EEG
+  Channel 11:
+    Label: T4
+    Unit: uV
+    Type: EEG
+  Channel 12:
+    Label: T5
+    Unit: uV
+    Type: EEG
+  Channel 13:
+    Label: P3
+    Unit: uV
+    Type: EEG
+  Channel 14:
+    Label: Pz
+    Unit: uV
+    Type: EEG
+  Channel 15:
+    Label: P4
+    Unit: uV
+    Type: EEG
+  Channel 16:
+    Label: T6
+    Unit: uV
+    Type: EEG
+  Channel 17:
+    Label: O1
+    Unit: uV
+    Type: EEG
+  Channel 18:
+    Label: Oz
+    Unit: uV
+    Type: EEG
+  Channel 19:
+    Label: O2
+    Unit: uV
+    Type: EEG
+  Channel 20:
+    Label: EX0
+    Unit: uV
+    Type: EEG
+  Channel 21:
+    Label: EX1
+    Unit: uV
+    Type: EEG
+  Channel 22:
+    Label: EX2
+    Unit: uV
+    Type: EEG
+  Channel 23:
+    Label: EX3
+    Unit: uV
+    Type: EEG
+  Channel 24:
+    Label: EX4
+    Unit: uV
+    Type: EEG
+  Channel 25:
+    Label: EX5
+    Unit: uV
+    Type: EEG
+  Channel 26:
+    Label: EX6
+    Unit: uV
+    Type: EEG
+  Channel 27:
+    Label: EX7
+    Unit: uV
+    Type: EEG
+  Channel 28:
+    Label: EX8
+    Unit: uV
+    Type: EEG
+  Channel 29:
+    Label: EX9
+    Unit: uV
+    Type: EEG
+  Channel 30:
+    Label: EX10
+    Unit: uV
+    Type: EEG
+  Channel 31:
+    Label: EX11
+    Unit: uV
+    Type: EEG
+
+📋 STREAM DESCRIPTION:
+
+🔤 CHANNEL NAMES:
+  Channel 0: Fp1
+  Channel 1: Fp2
+  Channel 2: F7
+  Channel 3: F3
+  Channel 4: Fz
+  Channel 5: F4
+  Channel 6: F8
+  Channel 7: T3
+  Channel 8: C3
+  Channel 9: Cz
+  Channel 10: C4
+  Channel 11: T4
+  Channel 12: T5
+  Channel 13: P3
+  Channel 14: Pz
+  Channel 15: P4
+  Channel 16: T6
+  Channel 17: O1
+  Channel 18: Oz
+  Channel 19: O2
+  Channel 20: EX0
+  Channel 21: EX1
+  Channel 22: EX2
+  Channel 23: EX3
+  Channel 24: EX4
+  Channel 25: EX5
+  Channel 26: EX6
+  Channel 27: EX7
+  Channel 28: EX8
+  Channel 29: EX9
+  Channel 30: EX10
+  Channel 31: EX11
+
+📥 TESTING DATA FLOW:
+✓ Received sample with 32 channels
+  First few values: [2.677908182144165, -1.843245029449463, -2.6052238941192627, -6.104259490966797, 4.079486846923828]
+  Timestamp: 34812.1271566
+
+🔄 TESTING CONTINUOUS DATA:
+✓ Received 10 samples in chunk
+  Sample shape: 10x32
+  Timestamps range: 34812.128 to 34812.139
+
+🎉 Stream connection successful!
+Channel names: ['Fp1', 'Fp2', 'F7', 'F3', 'Fz', 'F4', 'F8', 'T3', 'C3', 'Cz', 'C4', 'T4', 'T5', 'P3', 'Pz', 'P4', 'T6', 'O1', 'Oz', 'O2', 'EX0', 'EX1', 'EX2', 'EX3', 'EX4', 'EX5', 'EX6', 'EX7', 'EX8', 'EX9', 'EX10', 'EX11']
+
+📈 COLLECTING STATISTICS FOR 10 SECONDS:
+  Collecting data... Done!
+  Actual collection time: 10.01 seconds
+  Total samples: 7820
+  Total chunks: 99
+  Average samples/sec: 781.5
+  Average chunk size: 79.0
+  Chunks/sec: 9.9
+  Chunk size range: 65 - 83
+  Average chunk interval: 101.1 ms
+  Nominal sample rate: 1000.0 Hz
+  Data efficiency: 78.1%
+
+🎯 SAMPLE RATE DRIFT ANALYSIS:
+  Actual mean rate: 782.967 Hz
+  Rate error: -21.703%
+  Total drift: +2.167648 seconds
+  Drift rate: +277192.9 ppm
+  Drift per minute: +13.022 seconds
+  Instantaneous rate: 796.56 ± 98.47 Hz
+  Rate range: 415.5 - 943.1 Hz
+  Interval jitter: 0.179 ms RMS
+  Interval CV: 14.04%
+  Timing quality: Poor
+
+==================================================
+
+⚡ PERFORMANCE TEST FOR 3 SECONDS:
+  Testing with 10ms intervals... 2250 samples, 748.4 samples/sec
+  Testing with 50ms intervals... 2039 samples, 679.2 samples/sec
+  Testing with 100ms intervals... 2098 samples, 692.1 samples/sec
+  Testing with 500ms intervals... 2016 samples, 668.4 samples/sec
+
+📊 PERFORMANCE SUMMARY:
+    10ms timeout:  748.4 samples/sec,  93.8 chunks/sec, chunk size:   8.0, drift: -24.65%
+    50ms timeout:  679.2 samples/sec,  19.7 chunks/sec, chunk size:  34.6, drift: -32.09%
+   100ms timeout:  692.1 samples/sec,   9.9 chunks/sec, chunk size:  69.9, drift: -30.77%
+   500ms timeout:  668.4 samples/sec,   2.0 chunks/sec, chunk size: 336.0, drift: -33.11%
+
+==================================================
+
+🎯 COMPREHENSIVE SAMPLE RATE DRIFT MEASUREMENT (10s):
+  Nominal rate: 1000.0 Hz
+  Measuring for 10 seconds...
+
+📊 DRIFT MEASUREMENT RESULTS:
+  Samples collected: 6711
+  Measurement duration: 10.01 seconds
+  Nominal sample rate: 1000.0 Hz
+  Actual mean rate: 671.871813 Hz
+  Rate error: -32.812819%
+  Total time drift: +3.277513 seconds
+  Drift rate: +488379.15 ppm
+  Projected drift/hour: +1181.261 seconds
+  Instantaneous rate stability: 79.996 Hz std
+  Sample interval jitter: 0.172 ms RMS
+  Stability assessment: Poor (unstable)
